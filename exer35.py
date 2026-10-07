@@ -2,19 +2,19 @@ tipo = input("Digite o tipo de carne (File Duplo, Alcatra ou Picanha): ")
 quantidade = float(input("Digite a quantidade de carne em kg: "))
 pagamento = input("A compra será feita com o cartão Tabajara? (S/N): ")
 
-if tipo == "file duplo":
+if tipo == "File Duplo":
     if quantidade <= 5:
         preco = 34.90
     else:
         preco = 35.80
 
-elif tipo == "alcatra":
+elif tipo == "Alcatra":
     if quantidade <= 5:
         preco = 44.90
     else:
         preco = 46.80
 
-elif tipo == "picanha":
+elif tipo == "Picanha":
     if quantidade <= 5:
         preco = 66.90
     else:
